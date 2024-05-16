@@ -11964,4 +11964,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.header section {
+  height: 70px;
 }/*# sourceMappingURL=style.css.map */

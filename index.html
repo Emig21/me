@@ -3,54 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mi.css/styles.css">
     <link rel="stylesheet" href="style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <title>Calendario</title>
 </head>
 <body>
 
-    <div class="container-fluid">
-
+    <section class="bg-primary py-2"> <!-- Aquí he añadido la clase 'py-4' para agregar un padding en la parte superior e inferior -->
         <div class="row">
-            <div class="col text-center" style="background-color: burlywood;">
-                soy un encabezado
+            <div class="col">
+                <h2 class="text-white">¡Bienvenido!</h2> <!-- He añadido la clase 'text-white' para cambiar el color del texto a blanco -->
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-lg-3 col-sm-4" style="background-color: orangered;">
-                <h1>menu</h1>
-            </div>
-            <div class="col-lg-9 col-sm-8" style="background-color: yellow;">
-                <div class="row">
-
-                    <div class="col" style="background-color: yellow;">
-                      Column
-                    </div>
-                    <div class="col" style="background-color: blue;">
-                      Column
-                    </div>
-                    <div class="col" style="background-color: red;">
-                      Column
-                    </div>
-                    <div class="col" style="background-color: purple;">
-                        Column
-                    </div>
-        
-                </div>
-
-              </div>
-        </div>
-
-        <div class="row">
-            <div class="col text-center" style="background-color: thistle;">
-                soy el footer
-            </div>
-        </div>
-
-    </div>
-
+    </section>
     
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Mi Sitio</a> <!-- Cambia 'Mi Sitio' por el nombre de tu sitio -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
